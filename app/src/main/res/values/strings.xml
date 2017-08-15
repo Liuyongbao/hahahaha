@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">融贝</string>
+
+    <string name="homepage">首页</string>
+    <string name="investment">产品</string>
+    <string name="siliao">福利</string>
+    <string name="usercenter">我的</string>
+
+    <string name="network_err">当前网络异常，请检查您的网络设置</string>
+
+</resources>

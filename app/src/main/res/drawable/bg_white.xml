@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!--白色 圆角 无边框-->
+    <solid android:color="@color/white_FFFFFF" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/round_radius_m"
+        android:bottomRightRadius="@dimen/round_radius_m"
+        android:topLeftRadius="@dimen/round_radius_m"
+        android:topRightRadius="@dimen/round_radius_m" />
+
+</shape>

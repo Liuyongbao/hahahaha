@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3585fe</color>
+    <color name="colorPrimaryDark">#3585fe</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <!--透明/半透明-->
+    <color name="translucent_00000000">#00000000</color>
+    <color name="translucent_d000">#d000</color>
+    <color name="translucent">#10000000</color>
+    <color name="translucent_a">#a0000000</color>
+    <color name="translucent_7f000">#7f000000</color>
+    <color name="white_90FFFFFF">#99FFFFFF</color>
+
+    <!--白色-->
+    <color name="white_FFFFFF">#FFFFFF</color>
+    <!--黑色-->
+    <color name="black_333333">#333333</color>
+    <color name="black_000000">#000000</color>
+
+    <!--灰色-->
+    <color name="gray_usercenter_line">#777777</color>
+    <color name="gray_666666">#666666</color>
+    <color name="gray_a6a6a6">#a6a6a6</color>
+    <color name="gray_999999">#999999</color>
+    <color name="gray_888888">#888888</color>
+    <color name="gray_d4d4d4">#d4d4d4</color>
+    <color name="gray_activity_bg_efefef">#efefef</color>
+    <color name="gray_line_cccccc">#cccccc</color>
+    <!--蓝色-->
+    <color name="blue_3585fe">#3585fe</color>
+    <color name="blue_8dbaff">#8dbaff</color>
+    <color name="blue_00cbb1">#00cbb1</color>
+    <color name="blue_6da7ff">#6da7ff</color>
+    <color name="blue_37ca87">#37ca87</color>
+    <color name="blue_006694">#006694</color>
+    <color name="blue_27508b">#27508b</color>
+    <color name="bule_0daff4">#0daff4</color>
+    <color name="bule_2a3585fe">#2a3585fe</color>
+
+    <color name="bule_8fb7f3">#8fb7f3</color>
+    <color name="bule_aeceff">#aeceff</color>
+    <color name="bule_8fbcff">#8fbcff</color>
+
+
+    <!--红色-->
+    <color name="red_e56262">#e56262</color>
+    <color name="red_ce292f">#ce292f</color>
+    <color name="red_ea3925">#ea3925</color>
+    <color name="red_f64747">#f64747</color>
+    <color name="red_ea4343">#ea4343</color>
+    <color name="red_2af64747">#2af64747</color>
+    <color name="red_ee9898">#ee9898</color>
+    <color name="red_e24747">#e24747</color>
+
+
+    <!--黄色-->
+    <color name="yellow_ce292f">#ce292f</color>
+    <color name="yellow_ff6602">#ff6602</color>
+    <color name="yellow_fd952e">#fd952e</color>
+    <color name="yellow_fd9535">#fd9535</color>
+    <color name="yellow_fdd801">#fdd801</color>
+    <!--绿色-->
+    <color name="green_00cbb1">#00cbb1</color>
+    <color name="green_0dbba5">#0dbba5</color>
+    <!--紫色-->
+    <color name="purple_af6eff">#af6eff</color>
+
+    <drawable name="trans">@color/translucent_00000000</drawable>
+
+
+    <!--智齿-->
+    <color name="sobot_welcomeBackcolor">#019587</color>
+    <color name="sobot_viewpagerbackground">#EBEBEB</color>
+    <!-- tab底部栏目的切换 -->
+    <color name="sobot_title_category_select_color">#A52A2A</color>
+    <color name="sobot_title_category_unselect_color">#B23AEE</color>
+
+    <!-- 标题栏按钮背景颜色 -->
+    <drawable name="sobot_button_backward_pressed">#FF3030</drawable>
+    <drawable name="sobot_button_backward_normal">#0000</drawable>
+
+    <!-- 注册界面 样式 -->
+    <color name="sobot_holo_red_light">#ffff4444</color>
+    <color name="sobot_gray">#DBDBDB</color>
+
+    <!-- 八个主题颜色 -->
+    <color name="sobot_bg_white">#FFFFFF</color>
+    <color name="sobot_bbutton_danger">#ffd9534f</color>
+    <color name="sobot_bbutton_danger_edge">#ffd43f3a</color>
+    <color name="sobot_bbutton_danger_pressed">#ffd2322d</color>
+    <color name="sobot_bbutton_danger_pressed_edge">#ffac2925</color>
+    <color name="sobot_bbutton_danger_disabled">#a5d9534f</color>
+    <color name="sobot_bbutton_danger_disabled_edge">#a5d43f3a</color>
+    <color name="sobot_bbutton_info">#ff5bc0de</color>
+    <color name="sobot_bbutton_info_edge">#ff46b8da</color>
+    <color name="sobot_bbutton_info_pressed">#ff39b3d7</color>
+    <color name="sobot_bbutton_info_pressed_edge">#ff269abc</color>
+    <color name="sobot_bbutton_info_disabled">#a55bc0de</color>
+    <color name="sobot_bbutton_info_disabled_edge">#a546b8da</color>
+
+    <!-- 聊天界面提醒的颜色。布局文件 sobot_list_item_wo_text.xml 中 id为 @+id/sobot_center_Remind_note -->
+    <color name="sobot_listview_remind">#CECECE</color>
+    <color name="sobot_listview_remind_text_color">#fefefe</color>
+    <!--
+    布局文件 sobot_dcrc_dialog.xml 中 id为 @+id/sobot_btn_submit 的提交评价按钮字体颜色
+    布局文件 sobot_robot_dialog.xml 中 id为 @+id/sobot_btn_submit 的提交评价按钮字体颜色
+    布局文件 sobot_chat_activity.xml 中 id为 @+id/sobot_chat_activity 的背景颜色
+	布局文件 sobot_chat_activity.xml 中 id为 @+id/sobot_voiceTimeLong 的录音时长的字体颜色
+	布局文件 sobot_chat_activity.xml 中 id为 @+id/sobot_recording_hint 的字体颜色
+
+    -->
+    <color name="sobot_btn_text_color">#ffffff</color>
+    <!-- 布局文件 sobot_robot_dialog.xml 和 sobot_dcrc_dialog.xml 中 id 为 @+id/sobot_positiveButton(立即结束)、@+id/sobot_negativeButton(取消)按钮的字体颜色 -->
+    <color name="sobot_bg_black">#676e6f</color>
+    <!-- sobot_dcrc_dialog.xml 中 按钮id为 @+id/sobot_btn_submit的字体颜色 -->
+    <color name="sobot_color">#09aeb0</color>
+    <!-- 布局文件为 sobot_chat_activity.xml 中 id为@+id/sobot_btn_send 发送按钮的颜色选择器中的颜色 -->
+    <color name="sobot_btn_send_selector_color">#3585fe</color>
+
+
+    <!-- 头部开始 -->
+    <!-- 头部背景 -->
+    <color name="sobot_color_title_bar_bg">#09aeb0</color>
+    <!-- 头部中间昵称颜色 -->
+    <color name="sobot_color_title_bar_title">#ffffffff</color>
+
+    <!-- 中间 -->
+    <!-- 聊天背景 -->
+    <color name="sobot_color_chat_bg">#F0F0F0</color>
+    <!-- XListView的背景颜色 -->
+    <color name="sobot_lv_message_bg">#F0F0F0</color>
+    <color name="sobot_robot_msg_text_color">#000000</color>
+    <color name="sobot_msg_text_color">#ffffff</color>
+    <color name="sobot_msg_voice_text_color">#ffffff</color>
+    <color name="sobot_color_read_all">#09aeb0</color>
+    <color name="sobot_color_suggestion">#09aeb0</color>
+    <color name="sobot_color_suggestion_history">#000000</color>
+
+    <color name="sobot_color_evaluate_bg_normal">#ffffff</color>
+    <color name="sobot_color_evaluate_text_normal">#656565</color>
+    <color name="sobot_color_evaluate_bg_pressed">#09aeb0</color>
+    <color name="sobot_color_evaluate_text_pressed">#ffffff</color>
+    <color name="sobot_color_evaluate_text_btn">#000000</color>
+    <color name="sobot_color_remind_bg">#6a7272</color>
+
+    <!-- 超链接颜色 -->
+    <color name="sobot_color_link">#81fcf2</color>
+
+    <!-- button字体 -->
+    <drawable name="sobot_color_drawable_text_black">#000000</drawable>
+    <drawable name="sobot_color_drawbale_text_white">#ffffff</drawable>
+    <!-- 底部 -->
+    <!-- 底部背景 -->
+    <color name="sobot_color_bottom_bg">#e7e8e9</color>
+    <color name="sobot_color_bottom_btn_voice">#AAAAAA</color>
+    <color name="sobot_color_bottom_edittext_text">#FFFFFF</color>
+    <color name="sobot_color_bottom_upload_btn_color">#6a7272</color>
+    <color name="sobot_color_bottom_message">#AAAAAA</color>
+
+
+    <!-- skill activity -->
+    <drawable name="sobot_btn_skill_normal">#09aeb0</drawable>
+    <drawable name="sobot_btn_skill_pressed">#676f6f</drawable>
+    <color name="sobot_item_skill_pressed">#eeeeee</color>
+    <color name="sobot_color_item_skill_post_msg">#f1a058</color>
+    <color name="sobot_color_item_skill_online">#09aeb0</color>
+
+
+    <!--智齿end-->
+
+
+</resources>

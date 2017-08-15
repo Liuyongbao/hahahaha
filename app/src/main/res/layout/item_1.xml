@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llJiFen"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="1px"
+        android:background="@color/white_FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="2dp"
+                android:src="@mipmap/fljifen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="积分商城"
+                android:textSize="12sp"
+                android:textColor="@color/black_000000"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llBeiFen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="2dp"
+                android:src="@mipmap/flbeifen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="贝粉联盟"
+                android:textSize="12sp"
+                android:textColor="@color/black_000000"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlBeike"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="2dp"
+                    android:src="@mipmap/flbeike" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="捡贝壳"
+                    android:textSize="12sp"
+                    android:textColor="@color/black_000000"/>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivRedDot"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+
+                android:layout_marginRight="2dp"
+                android:src="@mipmap/img_bk_dot"
+                android:visibility="gone" />
+            <!--android:layout_alignRight="@id/linHomeJianBK"-->
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llXuYuan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="2dp"
+                android:src="@mipmap/flxuyuan" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="许愿池"
+                android:textSize="12sp"
+                android:textColor="@color/black_000000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

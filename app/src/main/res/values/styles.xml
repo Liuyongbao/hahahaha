@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--导航菜单按钮样式-->
+    <style name="MainRadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@drawable/main_radiobutton_selector</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <!--自定义对话框样式-->
+    <style name="mydialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/translucent_00000000</item>
+        <item name="android:windowBackground">@color/translucent_00000000</item>
+    </style>
+
+    <!--圆角尺寸 大/中/小/无-->
+    <dimen name="round_radius_l">10dp</dimen>
+    <dimen name="round_radius_m">5dp</dimen>
+    <dimen name="round_radius_s">3dp</dimen>
+    <dimen name="round_radius_0">0dp</dimen>
+
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue_3585fe"
+    android:minHeight="45dp">
+
+    <ImageButton
+        android:id="@+id/imgBack"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:background="@color/translucent_00000000"
+        android:padding="8dp"
+
+        android:src="@mipmap/fanhui"/>
+
+    <Button
+        android:id="@+id/butWebClose"
+        android:layout_width="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/imgBack"
+        android:background="@color/translucent_00000000"
+        android:text="关闭"
+        android:visibility="gone"
+        android:textColor="@color/white_FFFFFF"
+        android:textSize="12dp"
+        />
+
+    <ImageButton
+        android:id="@+id/img_icon"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:background="@color/translucent_00000000"
+        android:src="@mipmap/shezhi"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/imgRot"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@color/translucent_00000000"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imgMenuTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@color/translucent_00000000"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/texMenuTitle"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text=""
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/white_FFFFFF"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/texMenuMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white_FFFFFF"
+        android:textSize="13sp"
+        />
+
+    <ImageView
+        android:id="@+id/imgMenuMessage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:src="@mipmap/center_02"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/imgMenuMessageDot"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:layout_alignRight="@id/imgMenuMessage"
+        android:layout_margin="5dp"
+        android:src="@mipmap/dot_focus"
+        android:visibility="gone"
+
+        />
+
+    <TextView
+        android:id="@+id/textUserXX"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignRight="@id/imgMenuMessage"
+        android:layout_marginTop="5dp"
+        android:background="@mipmap/ic_launcher"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white_FFFFFF"
+        android:textSize="10sp"
+        android:visibility="gone"/>
+
+</RelativeLayout>
